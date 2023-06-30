@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Crimson+Text:wght@600&family=Libre+Baskerville&family=Roboto&display=swap');
+
+
+body{
+  background-color: rgb(214, 221, 145);
+  
+
+}  
+
+h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color:rgb(100, 96, 96);
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+p{
+  text-align: center;
+  color: #35496e;
+  font-size: 6vh;
+  font-weight: bold;
+}
+.btn-grad {
+  background-image: linear-gradient(to right, #9661b1 0%, #e0454f  51%, #bb62e7  100%);
+  margin-top: 50px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  width: 40%;
+  margin-left: 29%;
+  background-size: 200% auto;
+  color: rgb(163, 156, 156);     
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(240, 231, 231);
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* footer{
+  text-align: center;
+} */
